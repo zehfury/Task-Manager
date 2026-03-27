@@ -1,16 +1,60 @@
-# flutter_application_1
+# 🗂️ Task Manager App
 
-A new Flutter project.
+A modern Flutter-based task management application designed to help users stay organized, productive, and in control of their daily activities.
 
-## Getting Started
+---
+
+## 📱 Preview
+
+### 🏠 Home Screen
+![Home Screen](images/home.png)
+
+### ➕ Add Task
+![Add Task](images/add_task.png)
+
+### 📝 Task Details
+![Task Details](images/task_details.png)
+
+### 🔍 Search & Filter
+![Search](images/search.png)
+
+### 📊 Dashboard / Overview
+![Dashboard](images/dashboard.png)
+
+### ⚙️ Settings Page
+![Settings](images/settings.png)
+
+---
+
+## 🚀 Features
+
+- ✅ Create, update, and delete tasks  
+- 🔍 Search and filter tasks  
+- 📅 Organized task management  
+- 🎯 Clean and responsive UI  
+- ⚡ Fast and lightweight performance  
+
+---
+
+## 🛠️ Built With
+
+- **Flutter** – UI toolkit for building natively compiled applications  
+- **Dart** – Programming language optimized for UI  
+- (Add backend if applicable: PHP, Firebase, etc.)
+
+---
+
+---
+
+## ▶️ Getting Started
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
+- Install [Flutter](https://docs.flutter.dev/get-started/install)
+- Android Studio or VS Code
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Run the project
+```bash
+flutter pub get
+flutter run
