@@ -3,29 +3,31 @@
 A modern Flutter-based task management application designed to help users stay organized, productive, and in control of their daily activities.
 
 ---
-
 ## 📱 Preview
 
-### 🏠 Home Screen
-![Home Screen](images/home.png)
+<p align="center">
+  <img src="https://github.com/zehfury/Task-Manager/blob/main/flutter-1.jpg?raw=true" width="180"/>
+  <img src="images/add_task.png" width="180"/>
+  <img src="images/task_details.png" width="180"/>
+</p>
 
-### ➕ Add Task
-![Add Task](images/add_task.png)
+<p align="center">
+  🏠 Home &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  ➕ Light &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  📝 Pomodoro
+</p>
 
-### 📝 Task Details
-![Task Details](images/task_details.png)
+<p align="center">
+  <img src="images/search.png" width="180"/>
+  <img src="images/dashboard.png" width="180"/>
+  <img src="images/settings.png" width="180"/>
+</p>
 
-### 🔍 Search & Filter
-![Search](images/search.png)
-
-### 📊 Dashboard / Overview
-![Dashboard](images/dashboard.png)
-
-### ⚙️ Settings Page
-![Settings](images/settings.png)
-
----
-
+<p align="center">
+  🔍 Streaks & Rewards &nbsp;&nbsp;&nbsp;&nbsp;
+  📊 Mood Tracker &nbsp;&nbsp;&nbsp;&nbsp;
+  ⚙️ Dashboard
+</p>
 ## 🚀 Features
 
 - ✅ Create, update, and delete tasks  
