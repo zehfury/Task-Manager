@@ -7,8 +7,8 @@ A modern Flutter-based task management application designed to help users stay o
 
 <p align="center">
   <img src="https://github.com/zehfury/Task-Manager/blob/main/flutter-1.jpg?raw=true" width="180"/>
-  <img src="images/add_task.png" width="180"/>
-  <img src="images/task_details.png" width="180"/>
+  <img src="https://github.com/zehfury/Task-Manager/blob/main/flutter-2.jpg?raw=true" width="180"/>
+  <img src="https://github.com/zehfury/Task-Manager/blob/main/flutter-3.jpg?raw=true" width="180"/>
 </p>
 
 <p align="center">
@@ -18,9 +18,9 @@ A modern Flutter-based task management application designed to help users stay o
 </p>
 
 <p align="center">
-  <img src="images/search.png" width="180"/>
-  <img src="images/dashboard.png" width="180"/>
-  <img src="images/settings.png" width="180"/>
+  <img src="https://github.com/zehfury/Task-Manager/blob/main/flutter-4.jpg?raw=true" width="180"/>
+  <img src="https://github.com/zehfury/Task-Manager/blob/main/flutter-5.jpg?raw=true" width="180"/>
+  <img src="https://github.com/zehfury/Task-Manager/blob/main/flutter-6.jpg?raw=true" width="180"/>
 </p>
 
 <p align="center">
