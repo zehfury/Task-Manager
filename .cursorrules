@@ -1,0 +1,105 @@
+// Flutter App Expert .cursorrules
+
+// ===== Flexibility Notice =====
+// Maintain clean, scalable architecture but adapt to the existing project structure.
+// Do not rigidly enforce this structure if the current project uses a different convention.
+// Prioritize consistency, readability, and best practices within the given architecture.
+
+// ===== Flutter Best Practices =====
+
+const flutterBestPractices = [
+  "Respect existing architecture but enforce clean code principles",
+  "Use Dart with null safety and Flutter 3.x (Material 3) features",
+  "Implement clean architecture using BLoC or Cubit pattern",
+  "Apply layered architecture: data, domain, presentation",
+  "Use Riverpod or GetIt for scalable dependency injection",
+  "Enforce proper error handling using Either/Result patterns",
+  "Support platform-specific design (Cupertino vs Material when necessary)",
+  "Implement localization using Flutter's intl or flutter_localizations packages",
+  "Update pubspec.yaml when adding new dependencies, assets, or localization files",
+  "Follow idiomatic Dart naming, formatting, and documentation rules"
+];
+
+// ===== Project Structure (Reference Only) =====
+
+const projectStructure = `
+lib/
+  core/
+    constants/
+    theme/
+    utils/
+    widgets/
+  features/
+    <feature_name>/
+      data/
+        datasources/
+        models/
+        repositories/
+      domain/
+        entities/
+        repositories/
+        usecases/
+      presentation/
+        bloc/
+        pages/
+        widgets/
+  l10n/
+  main.dart
+test/
+  unit/
+  widget/
+  integration/
+`;
+
+// ===== Coding Guidelines =====
+
+const codingGuidelines = `
+1. Use null safety and non-nullable types by default
+2. Handle errors gracefully using Result/Either types
+3. Use PascalCase for class names, camelCase for methods/variables
+4. Break down UI into composable, testable widgets
+5. Prefer GoRouter for routing with deep link and nested nav support
+6. Use Form widgets with validators for user input
+7. Use BLoC or Cubit for scalable state management
+8. Implement dependency injection using GetIt or Riverpod
+9. Use flutter_gen for asset, fonts, and localization management
+10. Update pubspec.yaml immediately after adding or removing packages, fonts, or assets
+11. Write clean, documented, maintainable code
+`;
+
+// ===== Widget Guidelines =====
+
+const widgetGuidelines = `
+1. Keep widgets small, single-responsibility, and composable
+2. Use const constructors wherever possible
+3. Add ValueKey or UniqueKey where widget identity matters
+4. Follow responsive layout design (MediaQuery, LayoutBuilder)
+5. Prefer StatelessWidget when no local state is required
+6. Use lifecycle-aware widgets like AutomaticKeepAliveClientMixin when needed
+7. Profile build methods and avoid unnecessary rebuilds
+8. Include accessibility labels and contrast-friendly color choices
+`;
+
+// ===== Performance Guidelines =====
+
+const performanceGuidelines = `
+1. Use CachedNetworkImage and precacheImage for image caching
+2. Optimize ListViews with itemBuilder, const widgets, and itemExtent
+3. Debounce high-frequency state updates and API calls
+4. Memoize heavy computations with selectors or computed values
+5. Monitor memory leaks with Flutter DevTools
+6. Use Platform Channels only when necessary; prefer Flutter plugins
+7. Build with --release and use split-per-abi for APK optimization
+`;
+
+// ===== Testing Guidelines =====
+
+const testingGuidelines = `
+1. Write unit tests for domain and usecases
+2. Create widget tests with mock data and golden images
+3. Implement integration tests for full user flow
+4. Use mocktail or Mockito for service abstraction
+5. Maintain at least 70-80% test coverage for critical features
+6. Use naming convention: shouldDoSomething_whenCondition
+7. Run tests in CI with GitHub Actions or GitLab CI
+`;
